@@ -356,7 +356,7 @@ section .button button:hover{
   opacity: 0;
 }
 .skill-per.html{
-width: 90%;
+width: 85%;
 animation-delay: 0.3s;
 }
 .skill-per.css{
@@ -379,6 +379,10 @@ animation-delay: 0.7s;
 width: 88%;
 animation-delay: 0.8s;
 }
+.skill-per.GIMP{
+  width: 98%;
+  animation-delay: 0.3s;
+  }
 
 @keyframes progress {
   0%{
@@ -456,7 +460,7 @@ footer .text span a{
   color: #FFF;
 }
 footer .text span a:hover{
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* Scroll TO Top Button CSS */
 .scroll-button a{

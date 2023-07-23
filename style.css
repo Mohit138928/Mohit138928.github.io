@@ -46,7 +46,7 @@ nav .navbar{
 }
 nav .navbar .logo a{
   font-weight: 500;
-  font-size: 35px;
+  font-size: 30px;
   color: #4070f4;
 }
 nav.sticky .navbar .logo a{
@@ -205,6 +205,7 @@ section .title span{
   font-weight: 600;
   position: relative;
   padding-bottom: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 section .title span::before,
 section .title span::after{
@@ -371,17 +372,17 @@ animation-delay: 0.3s;
   width: 96%;
   animation-delay: 0.6s;
 }
-.skill-per.py{
+/*.skill-per.py{
 width: 53%;
 animation-delay: 0.7s;
 }
 .skill-per.DSA{
 width: 88%;
 animation-delay: 0.8s;
-}
+}*/
 .skill-per.GIMP{
-  width: 98%;
-  animation-delay: 0.3s;
+  width: 98.8%;
+  animation-delay: 0.7s;
   }
 
 @keyframes progress {
@@ -676,7 +677,7 @@ footer .text span a:hover{
 
 /* Projects styling  */
 
-.hover-1 , .hover-2, .hover-3 {
+.hover-1 {
   --b: 0.1em;   /* the thickness of the line */
   --c: #1095c1; /* the color */
   
@@ -693,16 +694,6 @@ footer .text span a:hover{
   --_p: 100%;
   --_s: .3s;
 }
-
-.hover-2:hover {
-  --_p: 100%;
-  --_s: .3s;
-}
-
-.hover-3:hover {
-  --_p: 100%;
-  --_s: .3s;
-} 
 h3 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
@@ -720,3 +711,17 @@ ul.myUL {
 ul {
   list-style: none;
 }
+.hovring ul li img{
+  visibility: hidden;
+  position: absolute;
+  z-index:1;
+  transform: scale(0);
+}
+.cntr ul li:hover img{
+  visibility: visible;
+  height:250px;
+  border-radius: 10px;
+  transform: scale(1);;
+}
+
+

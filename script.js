@@ -42,7 +42,6 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
-
 document.oncontextmenu = () => {
   return false;
 }

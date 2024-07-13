@@ -46,8 +46,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or would like to connect with me, feel free to reach out:
 
-- Email: [mauryamohit138@gmail.com]
-- LinkedIn: [https://www.linkedin.com/in/mohit-maurya-76a282204]
-- Personal Website: [https://mohit138928.github.io/]
+- [Email](mauryamohit138@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/mohit-maurya-76a282204)
+- [Portfolio](https://mohit-maurya-portfolio.vercel.app/)
 
 Thank you for visiting my repository and have a great day! 🚀
